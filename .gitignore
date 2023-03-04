@@ -1,0 +1,29 @@
+## MAC OS
+.DS_Store
+
+## TEXTMATE
+*.tmproj
+tmtags
+
+## EMACS
+*~
+\#*
+.\#*
+
+## VIM
+*.swp
+
+## PROJECT::GENERAL
+coverage
+rdoc
+pkg
+Gemfile.lock
+
+## PROJECT::SPECIFIC
+
+.bundle
+
+lib/sugarcrm/monkey_patches/*.rb
+
+# ignore test config file so each contributor can have his own
+test/config.yaml
